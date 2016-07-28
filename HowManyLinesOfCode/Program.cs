@@ -27,7 +27,7 @@ class Program
                         lines++;
                     } else break;
                 }
-                Console.WriteLine (path);
+                Console.WriteLine (lines + "\t" + path);
             }
         }
         if (Directory.Exists (path)) {
